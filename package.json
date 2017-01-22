@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "find the links in an html document",
   "main": "index.js",
+  "repository": "https://github.com/EggheadJohnson/link-finder",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

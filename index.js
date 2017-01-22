@@ -11,14 +11,12 @@ function returnsArray(filename, cb){
         rl.on('line', (line) => {
             if (line.toLowerCase().indexOf('href') > -1) {
                 line = line.slice(line.toLowerCase().indexOf('href')).split('=')[1].trim();
-                console.log(line);
                 line = line.split(line[0])[1];
                 list.push(line);
 
             }
             if (line.toLowerCase().indexOf('src') > -1) {
                 line = line.slice(line.toLowerCase().indexOf('src')).split('=')[1].trim();
-                console.log(line);
                 line = line.split(line[0])[1];
                 list.push(line);
 
